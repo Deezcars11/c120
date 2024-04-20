@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(104, 18, 103);
+    color:white;
+    
+}
+h1
+{
+    background-color: rgb(0, 0, 0);
+
+}
+#show_sketch
+{
+    float:right;
+    
+}
+canvas
+{
+    border-radius: 20px;
+    border: 5px solid white;
+    animation-name: example;
+    animation-duration: 4s;   
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    0%{box-shadow: 1px 1px 35px red;}
+    10%{box-shadow: 1px 1px 35px orange}
+    20%{box-shadow: 1px 1px 35px rgb(242, 255, 0);}
+    40%{box-shadow: 1px 1px 35px rgb(17, 255, 0);}
+    60%{box-shadow: 1px 1px 35px rgb(0, 251, 255);}
+    70%{box-shadow: 1px 1px 35px rgb(0, 76, 255);}
+    80%{box-shadow: 1px 1px 35px rgb(0, 0, 255);}
+    90%{box-shadow: 1px 1px 35px rgb(255, 0, 234);}
+    100%{box-shadow: 1px 1px 35px rgb(255, 0, 0);}
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+
+}
+p,span{ font-size:25px;
+     padding-top:10px;
+     }
+
+#score{ margin-left:
+     30px; font-size: 35px;
+     }
+ 
+#timer{ float: right;
+     margin-right: 20px; font-size: 35px;
+     }
